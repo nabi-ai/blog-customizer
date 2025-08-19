@@ -3,7 +3,7 @@
 	left: 0;
 	width: 616px;
 	height: 100%;
-	overflow: scroll;
+	overflow: hidden auto;
 	transform: translate(-616px);
 	transition: transform 0.5s ease;
 }
@@ -19,6 +19,7 @@
 	box-sizing: border-box;
 	width: 616px;
 	height: auto;
+	gap: 50px;
 	min-height: 100%;
 	padding: 50px 31px;
 	background-color: #ffffff;
